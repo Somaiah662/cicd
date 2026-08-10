@@ -9,7 +9,7 @@ describe("GET /hello", () => {
  
         expect(response.statusCode).toBe(200);
  
-        expect(response.body.message).toBe("Hello world");
+        expect(response.body.message).toBe("Hello World");
     });
  
 });
